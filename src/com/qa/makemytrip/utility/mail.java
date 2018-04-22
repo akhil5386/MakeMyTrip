@@ -29,8 +29,8 @@ import org.openqa.selenium.io.Zip;
 public class mail 
 {
 
-	final String username = "";
-    final  String password = "";
+	final String username = "thinkbeyondautomation@gmail.com";
+    final  String password = "brighter";
     
 
     
