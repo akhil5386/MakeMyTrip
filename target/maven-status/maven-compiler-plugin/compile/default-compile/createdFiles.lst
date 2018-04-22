@@ -1,0 +1,9 @@
+com\qa\makemytrip\utility\mail$1.class
+com\qa\makemytrip\base\Base.class
+com\qa\makemytrip\utility\ActionKeywords.class
+com\qa\makemytrip\logout\Logout.class
+com\qa\makemytrip\utility\CaptureScreenshot.class
+com\qa\makemytrip\login\Login.class
+com\qa\makemytrip\utility\mail.class
+com\qa\makemytrip\utility\OR.class
+com\qa\makemytrip\utility\ReadCredentials.class

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="22867" started-at="2018-04-15T13:09:37Z" finished-at="2018-04-15T13:10:00Z">
+    <groups>
+    </groups>
+    <test name="BaseUser" duration-ms="22867" started-at="2018-04-15T13:09:37Z" finished-at="2018-04-15T13:10:00Z">
+      <class name="com.qa.makemytrip.base.Base">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.makemytrip.base.Base@bbd20a]" name="setUp" is-config="true" duration-ms="172" started-at="2018-04-15T13:09:37Z" finished-at="2018-04-15T13:09:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.qa.makemytrip.base.Base@bbd20a]" name="setUP" is-config="true" duration-ms="5655" started-at="2018-04-15T13:09:37Z" finished-at="2018-04-15T13:09:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="initObj()[pri:0, instance:com.qa.makemytrip.base.Base@bbd20a]" name="initObj" is-config="true" duration-ms="0" started-at="2018-04-15T13:09:43Z" finished-at="2018-04-15T13:09:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initObj -->
+        <test-method status="PASS" signature="launchUrl()[pri:1, instance:com.qa.makemytrip.base.Base@bbd20a]" name="launchUrl" duration-ms="12796" started-at="2018-04-15T13:09:43Z" finished-at="2018-04-15T13:09:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchUrl -->
+        <test-method status="PASS" signature="screenShots(org.testng.ITestResult)[pri:0, instance:com.qa.makemytrip.base.Base@bbd20a]" name="screenShots" is-config="true" duration-ms="35" started-at="2018-04-15T13:09:56Z" finished-at="2018-04-15T13:09:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=launchUrl status=SUCCESS method=Base.launchUrl()[pri:1, instance:com.qa.makemytrip.base.Base@bbd20a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShots -->
+        <test-method status="PASS" signature="testLogin()[pri:2, instance:com.qa.makemytrip.base.Base@bbd20a]" name="testLogin" duration-ms="4325" started-at="2018-04-15T13:09:56Z" finished-at="2018-04-15T13:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="screenShots(org.testng.ITestResult)[pri:0, instance:com.qa.makemytrip.base.Base@bbd20a]" name="screenShots" is-config="true" duration-ms="16" started-at="2018-04-15T13:10:00Z" finished-at="2018-04-15T13:10:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=Base.testLogin()[pri:2, instance:com.qa.makemytrip.base.Base@bbd20a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShots -->
+        <test-method status="PASS" signature="testLogout()[pri:3, instance:com.qa.makemytrip.base.Base@bbd20a]" name="testLogout" duration-ms="0" started-at="2018-04-15T13:10:00Z" finished-at="2018-04-15T13:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method status="PASS" signature="screenShots(org.testng.ITestResult)[pri:0, instance:com.qa.makemytrip.base.Base@bbd20a]" name="screenShots" is-config="true" duration-ms="18" started-at="2018-04-15T13:10:00Z" finished-at="2018-04-15T13:10:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogout status=SUCCESS method=Base.testLogout()[pri:3, instance:com.qa.makemytrip.base.Base@bbd20a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenShots -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.makemytrip.base.Base@bbd20a]" name="tearDown" is-config="true" duration-ms="1197" started-at="2018-04-15T13:10:00Z" finished-at="2018-04-15T13:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.makemytrip.base.Base -->
+    </test> <!-- BaseUser -->
+  </suite> <!-- Suite -->
+</testng-results>

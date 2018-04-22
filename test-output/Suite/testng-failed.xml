@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="BaseUser(failed)" parallel="tests">
+    <classes>
+      <class name="com.qa.makemytrip.base.Base">
+        <methods>
+          <include name="testLogout"/>
+          <include name="testLogin"/>
+          <include name="tearDown"/>
+          <include name="screenShots"/>
+          <include name="setUp"/>
+          <include name="setUP"/>
+          <include name="initObj"/>
+        </methods>
+      </class> <!-- com.qa.makemytrip.base.Base -->
+    </classes>
+  </test> <!-- BaseUser(failed) -->
+</suite> <!-- Failed suite [Suite] -->
