@@ -80,7 +80,7 @@ public class Base {
 		case "IE":
 			System.setProperty("webdriver.ie.driver", OR.CHROMEDRIVER);
 			driver = new FirefoxDriver();
-			System.out.print("Suite is running on IE");
+			System.out.print("Suite is running on Internet Explorer");
 			break;
 		}
 		
