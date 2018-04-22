@@ -68,16 +68,19 @@ public class Base {
 		case "Firefox":
 			System.setProperty("webdriver.gecko.driver", OR.GECKO);
 			driver = new FirefoxDriver();
+			System.out.print("Suite is running on Firefox");
 			break;
 			
 		case "Chrome":
 			System.setProperty("webdriver.chrome.driver", OR.CHROMEDRIVER);
 			driver = new ChromeDriver();
+			System.out.print("Suite is running on Chrome");
 			break;
 			
 		case "IE":
 			System.setProperty("webdriver.ie.driver", OR.CHROMEDRIVER);
 			driver = new FirefoxDriver();
+			System.out.print("Suite is running on IE");
 			break;
 		}
 		
