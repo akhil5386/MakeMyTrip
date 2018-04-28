@@ -11,5 +11,9 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="F:/Automation Training/Jar Files/Jar Files/jxl.jar"/>
+	<classpathentry kind="lib" path="F:/Automation Training/Jar Files/Jar Files/mail-1.4.7.jar"/>
+	<classpathentry kind="lib" path="F:/Automation Training/Jar Files/Jar Files/selenium-server-standalone-3.8.1.jar"/>
+	<classpathentry kind="lib" path="F:/Automation Training/Jar Files/Jar Files/testng-6.9.4.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
