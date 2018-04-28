@@ -7,10 +7,14 @@ import org.testng.annotations.Test;
 public class Base {
 
 	String testCase;
-
+	String username;
+	String password;
+	
 	@BeforeSuite
 	public void initObj() {
 		testCase = System.getProperty("TestCase");
+		username=System.getProperty("UserName");
+		password=System.getProperty("Password");
 	}
 
 	@Test(priority = 1)
@@ -34,7 +38,7 @@ public class Base {
 	@Test(priority = 3)
 	public void test3() {
 		if (testCase.contains("Test3")) {
-			System.out.println("Test Case 3");
+			System.out.println(username);
 		} else {
 			throw new SkipException("Test Case is skipped");
 		}
@@ -43,7 +47,7 @@ public class Base {
 	@Test(priority = 4)
 	public void test4() {
 		if (testCase.contains("Test4")) {
-			System.out.println("Test Case 4");
+			System.out.println(password);
 		} else {
 			throw new SkipException("Test Case is skipped");
 		}
