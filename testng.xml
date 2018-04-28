@@ -6,7 +6,7 @@
   
  <test name="BaseUser">
     <classes>
-      <class name="com.qa.makemytrip.base.Base"/>
+      <class name="com.qa.makemytrip.base.Base1"/>
     </classes>
   </test>  
   
